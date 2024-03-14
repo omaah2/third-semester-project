@@ -1,0 +1,25 @@
+:root {
+  --yellow: #f5c32c;
+  --background:#f5dabb;
+  --button:#c66d2e;
+  --footer:#c66d2e;
+  --text:#c66d2e;
+  --span:#ed8c47;
+  --card:#c66d2e;
+  --boxShadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  --fc-button-bg-color: #c66d2e;
+  --fc-button-border-color:#c66d2e ;
+  --fc-button-hover-bg-color: #c66d2e;
+  --fc-button-hover-border-color:#c66d2e;
+    --fc-button-active-bg-color: #c66d2e;
+  --fc-button-active-border-color:#c66d2e ;
+  --fc-button-margin-bottom:20px ;
+}
+
+.fc .fc-button{
+  margin-bottom: 25px;
+}
+
+
+
+

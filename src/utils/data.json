@@ -1,0 +1,563 @@
+{ "data": [
+  {
+    "name": "Lagos University Teaching Hospital",
+    "address": "Idi Araba, Lagos, Nigeria",
+    "coordinates": [6.5194, 3.3758],
+    "country": "Nigeria",
+    "phone": "+234-123456789",
+    "email": "info@luth.com",
+    "opening_hours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 5:00 PM",
+      "Saturday": "9:00 AM - 1:00 PM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "University College Hospital, Ibadan",
+    "address": "Queen Elizabeth Road, Oritamefa, Ibadan, Nigeria",
+    "coordinates": [7.3889, 3.8823],
+    "country": "Nigeria",
+    "phone": "+234-123456789",
+    "email": "info@uchibadan.com",
+    "opening_hours": {
+      "Monday": "8:00 AM - 4:00 PM",
+      "Tuesday": "8:00 AM - 4:00 PM",
+      "Wednesday": "8:00 AM - 4:00 PM",
+      "Thursday": "8:00 AM - 4:00 PM",
+      "Friday": "8:00 AM - 4:00 PM",
+      "Saturday": "8:00 AM - 1:00 PM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "National Hospital Abuja",
+    "address": "Plot 132 Central Business District, Garki, Abuja, Nigeria",
+    "coordinates": [9.0723, 7.4913],
+    "country": "Nigeria",
+    "phone": "+234-123456789",
+    "email": "info@nationalhospitalabuja.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "Cleveland Clinic",
+    "address": "9500 Euclid Ave, Cleveland, OH 44195, USA",
+    "coordinates": [41.5045, -81.6214],
+    "country": "USA",
+    "phone": "+1-123-456-7890",
+    "email": "info@clevelandclinic.com",
+    "opening_hours": {
+      "Monday": "8:00 AM - 5:00 PM",
+      "Tuesday": "8:00 AM - 5:00 PM",
+      "Wednesday": "8:00 AM - 5:00 PM",
+      "Thursday": "8:00 AM - 5:00 PM",
+      "Friday": "8:00 AM - 5:00 PM",
+      "Saturday": "9:00 AM - 1:00 PM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "Mayo Clinic",
+    "address": "200 1st St SW, Rochester, MN 55905, USA",
+    "coordinates": [44.0207, -92.4637],
+    "country": "USA",
+    "phone": "+1-123-456-7890",
+    "email": "info@mayoclinic.com",
+    "opening_hours": {
+      "Monday": "8:00 AM - 5:00 PM",
+      "Tuesday": "8:00 AM - 5:00 PM",
+      "Wednesday": "8:00 AM - 5:00 PM",
+      "Thursday": "8:00 AM - 5:00 PM",
+      "Friday": "8:00 AM - 5:00 PM",
+      "Saturday": "9:00 AM - 1:00 PM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "St. Mary's Hospital",
+    "address": "Imperial College Road, London W2 1NY, United Kingdom",
+    "coordinates": [51.5203, -0.1784],
+    "country": "United Kingdom",
+    "phone": "+44-123-456-7890",
+    "email": "info@stmaryshospital.com",
+    "opening_hours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 5:00 PM",
+      "Saturday": "9:00 AM - 1:00 PM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "Apollo Hospitals",
+    "address": "Jubilee Hills, Hyderabad, Telangana 500033, India",
+    "coordinates": [17.4356, 78.4036],
+    "country": "India",
+    "phone": "+91-12345-67890",
+    "email": "info@apollohospitals.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "Seoul National University Hospital",
+    "address": "101 Daehak-ro, Jonno-dong, Jongno-gu, Seoul, South Korea",
+    "coordinates": [37.5665, 126.9779],
+    "country": "South Korea",
+    "phone": "+82-123-456-7890",
+    "email": "info@snuhospitals.com",
+    "opening_hours": {
+      "Monday": "8:00 AM - 6:00 PM",
+      "Tuesday": "8:00 AM - 6:00 PM",
+      "Wednesday": "8:00 AM - 6:00 PM",
+      "Thursday": "8:00 AM - 6:00 PM",
+      "Friday": "8:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 1:00 PM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "Toronto General Hospital",
+    "address": "200 Elizabeth St, Toronto, ON M5G 2C4, Canada",
+    "coordinates": [43.6581, -79.3886],
+    "country": "Canada",
+    "phone": "+1-123-456-7890",
+    "email": "info@torontogeneralhospital.com",
+    "opening_hours": {
+      "Monday": "8:00 AM - 5:00 PM",
+      "Tuesday": "8:00 AM - 5:00 PM",
+      "Wednesday": "8:00 AM - 5:00 PM",
+      "Thursday": "8:00 AM - 5:00 PM",
+      "Friday": "8:00 AM - 5:00 PM",
+      "Saturday": "9:00 AM - 1:00 PM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "St. Thomas' Hospital",
+    "address": "Westminster Bridge Rd, London SE1 7EH, United Kingdom",
+    "coordinates": [51.4995, -0.1152],
+    "country": "United Kingdom",
+    "phone": "+44-123-456-7890",
+    "email": "info@stthomashospital.com",
+    "opening_hours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 5:00 PM",
+      "Saturday": "9:00 AM - 1:00 PM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "Johns Hopkins Hospital",
+    "address": "1800 Orleans St, Baltimore, MD 21287, USA",
+    "coordinates": [39.2966, -76.5939],
+    "country": "USA",
+    "phone": "+1-123-456-7890",
+    "email": "info@johnshopkinshospital.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "King Fahad Medical City",
+    "address": "Riyadh 12746, Saudi Arabia",
+    "coordinates": [24.6476, 46.7162],
+    "country": "Saudi Arabia",
+    "phone": "+966-123-456-789",
+    "email": "info@kfmc.com",
+    "opening_hours": {
+      "Monday": "8:00 AM - 4:00 PM",
+      "Tuesday": "8:00 AM - 4:00 PM",
+      "Wednesday": "8:00 AM - 4:00 PM",
+      "Thursday": "8:00 AM - 4:00 PM",
+      "Friday": "Closed",
+      "Saturday": "8:00 AM - 1:00 PM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "Royal Melbourne Hospital",
+    "address": "300 Grattan St, Parkville VIC 3050, Australia",
+    "coordinates": [-37.7982, 144.9569],
+    "country": "Australia",
+    "phone": "+61-123-456-789",
+    "email": "info@royalmelbournehospital.com",
+    "opening_hours": {
+      "Monday": "8:00 AM - 5:00 PM",
+      "Tuesday": "8:00 AM - 5:00 PM",
+      "Wednesday": "8:00 AM - 5:00 PM",
+      "Thursday": "8:00 AM - 5:00 PM",
+      "Friday": "8:00 AM - 5:00 PM",
+      "Saturday": "9:00 AM - 1:00 PM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "Peking Union Medical College Hospital",
+    "address": "No. 1 Shuaifuyuan, Dongcheng District, Beijing, China",
+    "coordinates": [39.9075, 116.4203],
+    "country": "China",
+    "phone": "+86-123-456-789",
+    "email": "info@pumch.com",
+    "opening_hours": {
+      "Monday": "8:00 AM - 5:00 PM",
+      "Tuesday": "8:00 AM - 5:00 PM",
+      "Wednesday": "8:00 AM - 5:00 PM",
+      "Thursday": "8:00 AM - 5:00 PM",
+      "Friday": "8:00 AM - 5:00 PM",
+      "Saturday": "9:00 AM - 1:00 PM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "Mount Sinai Hospital",
+    "address": "600 University Ave, Toronto, ON M5G 1X5, Canada",
+    "coordinates": [43.6579, -79.3879],
+    "country": "Canada",
+    "phone": "+1-123-456-7890",
+    "email": "info@mountsinaihospital.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "Charité – Universitätsmedizin Berlin",
+    "address": "Charitéplatz 1, 10117 Berlin, Germany",
+    "coordinates": [52.52, 13.405],
+    "country": "Germany",
+    "phone": "+49-123-456-7890",
+    "email": "info@chariteberlin.com",
+    "opening_hours": {
+      "Monday": "8:00 AM - 6:00 PM",
+      "Tuesday": "8:00 AM - 6:00 PM",
+      "Wednesday": "8:00 AM - 6:00 PM",
+      "Thursday": "8:00 AM - 6:00 PM",
+      "Friday": "8:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 1:00 PM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "Tokyo Medical University Hospital",
+    "address": "6 Chome-7-1 Nishishinjuku, Shinjuku City, Tokyo 160-0023, Japan",
+    "coordinates": [35.6938, 139.6956],
+    "country": "Japan",
+    "phone": "+81-123-456-789",
+    "email": "info@tokyomedicaluniversityhospital.com",
+    "opening_hours": {
+      "Monday": "8:00 AM - 5:00 PM",
+      "Tuesday": "8:00 AM - 5:00 PM",
+      "Wednesday": "8:00 AM - 5:00 PM",
+      "Thursday": "8:00 AM - 5:00 PM",
+      "Friday": "8:00 AM - 5:00 PM",
+      "Saturday": "9:00 AM - 1:00 PM",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "name": "Lagos University Teaching Hospital",
+    "address": "Idi Araba, Lagos, Nigeria",
+    "coordinates": [6.5162, 3.3753],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@luth.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "Reddington Hospital",
+    "address": "12 Idowu Martins St, Victoria Island, Lagos",
+    "coordinates": [6.4314, 3.4261],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@reddingtonhospital.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "St. Nicholas Hospital",
+    "address": "57 Campbell St, Lagos Island, Lagos",
+    "coordinates": [6.4493, 3.3987],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@stnicholashospital.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "Lagoon Hospitals",
+    "address": "8 Marine Rd, Apapa, Lagos",
+    "coordinates": [6.4486, 3.3706],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@lagoonhospitals.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "Eko Hospital",
+    "address": "31 Mobolaji Bank Anthony Way, Ikeja, Lagos",
+    "coordinates": [6.5773, 3.3614],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@ekohospital.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "Renaissance Hospital",
+    "address": "23 Isaac John St, Ikeja GRA, Lagos",
+    "coordinates": [6.5807, 3.3572],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@renaissancehospital.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "First Consultant Medical Centre",
+    "address": "1, Plot 132, Obafemi Awolowo Way, Ikeja, Lagos",
+    "coordinates": [6.6054, 3.3513],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@firstconsultantmedicalcentre.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "Federal Medical Centre, Ebute Metta",
+    "address": "3rd Mainland Bridge, Lagos",
+    "coordinates": [6.5027, 3.3834],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@fmcabutemetta.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "Island Maternity Hospital",
+    "address": "Lagos Island, Lagos",
+    "coordinates": [6.4524, 3.3891],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@islandmaternityhospital.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "Ikorodu General Hospital",
+    "address": "Ita Elewa, Ikorodu, Lagos",
+    "coordinates": [6.6103, 3.5105],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@ikorodugeneralhospital.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "National Hospital Abuja",
+    "address": "Plot 132 Central Business District (Phase II), Abuja",
+    "coordinates": [9.0733, 7.4914],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@nationalhospitalabuja.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "Garki Hospital Abuja",
+    "address": "Plot 310, Hospital Road, Area 3, Garki, Abuja",
+    "coordinates": [9.0712, 7.4841],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@garkihospitalabuja.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "Primus Hospital Abuja",
+    "address": "Karimu Kotun St, Victoria Island, Abuja",
+    "coordinates": [9.0695, 7.4448],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@primushospitalabuja.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "Asokoro District Hospital",
+    "address": "Hafia Street, Asokoro, Abuja",
+    "coordinates": [9.0655, 7.5087],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@asokorodistricthospital.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "Nisa Premier Hospital",
+    "address": "No. 7 Chukuku Close, Off Ngozi Okonjo Iweala Way, Utako, Abuja",
+    "coordinates": [9.0568, 7.4757],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@nisapremierhospital.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  },
+  {
+    "name": "Federal Medical Centre, Abeokuta",
+    "address": "Idi Aba, Abeokuta",
+    "coordinates": [7.1604, 3.3592],
+    "country": "Nigeria",
+    "phone": "+234-123-456-7890",
+    "email": "info@fmcabeokuta.com",
+    "opening_hours": {
+      "Monday": "24 hours",
+      "Tuesday": "24 hours",
+      "Wednesday": "24 hours",
+      "Thursday": "24 hours",
+      "Friday": "24 hours",
+      "Saturday": "24 hours",
+      "Sunday": "24 hours"
+    }
+  }]
+  }

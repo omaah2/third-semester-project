@@ -1,0 +1,89 @@
+.doc-list {
+  background-color: var(--background);
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.doc-list h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--text);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.doc-list input {
+  width: calc(100% - 40px);
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.doc-list button {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--button);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.doc-list button:hover {
+  background-color: var(--hover);
+}
+
+.doc-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.doc-list li {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   color: #0b0a07;
+}
+
+.doc-list li:last-child {
+  margin-bottom: 0;
+}
+
+
+.doc-list strong {
+  font-weight: bold;
+}
+
+.doc-button {
+  display: flex;
+}
+
+.doc-button button {
+  margin-right: 10px;
+}
+
+.doc-list input::placeholder {
+  color: #999; 
+  font-style: italic; 
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .doc-list {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .doc-list {
+    width: 90%;
+  }
+}

@@ -1,0 +1,176 @@
+.Banner {
+  width: 100%;
+  height: 87vh;
+  padding-top: 9vh;
+  background-color: var(--background);
+  position: relative; /* Add this */
+  overflow: hidden;
+}
+
+.Banner::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3%;
+  background: var(--button);
+  transform-origin: bottom left;
+  transform: skewY(-2deg);
+}
+
+.Cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Bannertxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: calc(6px + 1vw);
+  line-height: 1.1;
+  margin-left: 2vw;
+}
+
+.Txt {
+  color: var(--text);
+  font-weight: 600;
+  margin-bottom: 2vh;
+}
+.txt span {
+  color: var(--text);
+  font-weight: 600;
+  font-size: 2.3rem;
+}
+
+.Bannertxt p {
+  font-weight: 500;
+  margin-bottom: 4vh;
+}
+
+.Btn {
+  background-color: var(--button);
+  color: #fff;
+  width: 12vw;
+  height: 5vh;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 2vh;
+  transition: 0.4s;
+}
+.Btn a{
+   color: #181111;
+   text-decoration: none;
+   font-size:1.2rem;
+   font-family:italics;
+}
+
+.Btn:hover {
+  opacity: 0.9;
+}
+
+.Link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: calc(6px + 1vw);
+  font-style: italic;
+  color: black;
+}
+
+.ArrowRight {
+  height: 2.3vh;
+  width: 1.5vw;
+}
+
+.HeroImage {
+  height: 50vh;
+  width: 43vw;
+  object-fit: cover;
+  border-radius: 25px 0 0 25px;
+}
+
+.Find {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8vh 0;
+}
+
+.Findtxt {
+  color: var(--text);
+  font-weight: 500;
+  margin-bottom: 1.2vh;
+}
+
+.Find input {
+  height: 8vh;
+  width: 35vw;
+  border-radius: 25px;
+  border: none;
+  padding: 2vh 4vh;
+  color: black;
+  opacity: 0.7;
+}
+
+.Find input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  .Banner {
+    height: auto;
+  }
+  .Banner::after {
+    height: 2%;
+    transform: scale(1.1) skewY(-4deg);
+    margin-bottom: 5px;
+  }
+
+  .Bannertxt p {
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
+  .Cont {
+    flex-direction: column;
+    text-align: center;
+  }
+  .txt span {
+    font-size: 1.2rem;
+  }
+
+  .Bannertxt {
+    margin-left: 0;
+  }
+
+  .Btn {
+    width: 40vw;
+  }
+
+  .HeroImage {
+    height: 40vh;
+    width: 70vw;
+    border-radius: 25px;
+  }
+  .Link {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+  .ArrowRight {
+    transform: scale(1.9);
+  }
+
+  .Find input {
+    width: 70vw;
+    transform: scale(0.9);
+    margin-top: 10px;
+    margin-bottom: 35px;
+  }
+}

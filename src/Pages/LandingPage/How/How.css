@@ -1,0 +1,206 @@
+
+
+/* Partners section */
+.partners-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5dabb;
+
+}
+
+.partners-text {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.partners-list {
+  display: flex;
+  gap: 15px;
+  transform: scale(0.79);
+  justify-content: center;
+  margin-top: 10px;
+  list-style: none;
+}
+
+
+.partner-item img {
+  width: 100px;
+  height: auto;
+}
+
+
+/* Individual section */
+.section {
+  flex-basis: calc(50% - 20px);
+  margin-bottom: 20px;
+}
+
+
+/* COOPERATIVE section */
+.coop-section {
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.coop-content {
+  display: flex;
+  justify-content: space-evenly;
+ align-items: center;
+}
+
+.coop-left {
+  background-color: #f5dabb;
+  text-align: center;
+  width: 18rem;
+  height: 15rem;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.coop-right{
+  font-size: 16px;
+}
+
+
+.coop-heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.coop-paragraph {
+  font-size: 16px;
+  
+}
+
+.coop-divider {
+  width: 2px;
+  background-color: #ccc;
+  margin: 0 20px;
+}
+
+.coop-list {
+  list-style: none;
+  padding: 0;
+}
+
+.coop-item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.coop-item .cross-icon {
+  margin-right: 10px; 
+}
+/* FAQ section */
+.faq-section {
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.faq-content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.accordion-button {
+  background-color: #f5dabb;
+  border: none;
+  padding: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: var(--text);
+  font-size: 1.5rem;
+}
+
+.accordion-button:hover {
+  background-color: #f2cb9c;
+}
+
+.accordion-label {
+  flex: 1;
+}
+
+.accordion-panel {
+  padding: 16px;
+  
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .partners-section {
+    padding: 10px;
+  }
+
+  .partners-text {
+    font-size: 14px;
+  }
+
+  .partners-list {
+    flex-wrap: wrap;
+    gap: 10px;
+    transform: scale(0.7);
+    margin-top: 5px;
+  }
+
+  .partner-item img {
+    width: 80px;
+  }
+
+  .section {
+    flex-basis: 100%;
+  }
+
+  .coop-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coop-left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .coop-divider {
+    display: none;
+  }
+
+  .coop-right {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .faq-content {
+    width: 80%;
+  }
+}
+
+/* Media query for extra small screens */
+@media only screen and (max-width: 576px) {
+  .coop-section {
+    margin-top: 10px;
+    margin-bottom: 16px;
+  }
+
+  .coop-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coop-left {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .coop-right {
+    width: 100%;
+  }
+
+  .faq-content {
+    width: 90%;
+  }
+}

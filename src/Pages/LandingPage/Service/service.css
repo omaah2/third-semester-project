@@ -1,0 +1,149 @@
+.service {
+  margin-top: 5.5vh;
+}
+.serviceContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20vh;
+}
+.serviceWrap {
+  display: flex;
+  gap: 1.2vw;
+  width: 30vh;
+  height: 70vh;
+  margin-left: 4vh;
+}
+.servicetxt {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  align-items: center;
+  margin-right: 8vw;
+}
+.servicetxt h1 {
+  text-align: center;
+}
+.servicetxt span {
+  color: var(--text);
+}
+.servicetxt p {
+  width: 36vw;
+  text-align: center;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+.servicetxt button {
+  background-color: var(--button);
+  width: 12vw;
+  height: 5vh;
+  color: #fff;
+  border-radius: 0.75rem;
+  margin-bottom: 2vh;
+  border: none;
+  cursor: pointer;
+}
+.Motion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1vw;
+  margin-bottom: 22vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.Content {
+  background-color: var(--background);
+  border-radius: 0.75rem;
+  width: 20vw;
+  height: 30vh;
+  padding-top: 1.8vh;
+  text-align: center;
+  font-weight: 500;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.Content2 {
+  width: 4vw;
+  height: 4vh;
+  background-color: var(--button);
+  display: flex;
+  align-items: center;
+  border-radius: 2vw;
+  padding: 2vh 0;
+  margin: 0px auto;
+  margin-bottom: 1.7vh;
+}
+.Content2 img {
+  width: 3vw;
+  height: 3vh;
+  margin: 0px auto;
+  object-fit: cover;
+}
+.Content h1 {
+  margin-bottom: 4vh;
+  font-size: calc(8px + 0.8vw);
+}
+.Content p {
+  font-size: calc(4px + 0.8vw);
+  font-weight: 400;
+}
+.Image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5vh; /* Adjusted for better spacing */
+}
+
+.Image img {
+  max-width: 100%;
+  max-height: 70vh;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .serviceContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .serviceWrap {
+    flex-direction: column;
+    height: 50vh;
+    width: 20vh;
+    margin-left: 0;
+  }
+
+  .servicetxt {
+    margin-right: 0;
+    margin-bottom: 1vh;
+  }
+
+  .servicetxt p {
+    width: auto;
+    margin: 2vh 0;
+  }
+
+  .Motion {
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    margin-bottom: 10vh;
+  }
+
+  .Content {
+    width: 70vw;
+  }
+  .Content2 {
+    width: 8vw;
+    height: 2vh;
+  }
+  .Content2 img {
+    width: 5vw;
+    height: 2vh;
+  }
+  .servicetxt button {
+    width: 40vw;
+  }
+}
